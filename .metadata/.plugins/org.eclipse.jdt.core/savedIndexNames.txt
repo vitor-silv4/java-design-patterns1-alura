@@ -1,0 +1,4 @@
+INDEX VERSION 1.132+C:\Users\Vitor Hugo\Documents\design-patterns1-java-alua\.metadata\.plugins\org.eclipse.jdt.core
+3959137331.index
+2887631762.index
+1865797976.index

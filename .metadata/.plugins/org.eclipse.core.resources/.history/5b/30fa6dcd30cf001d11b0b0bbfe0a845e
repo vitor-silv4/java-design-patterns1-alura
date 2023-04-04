@@ -1,0 +1,22 @@
+package br.com.alura.loja.imposto;
+
+import java.math.BigDecimal;
+
+import br.com.alura.loja.orcamento.Orcamento;
+
+public class CalculadoraDeImposto {
+
+	public BigDecimal calcular(Orcamento orcamento, TipoImposto tipoImposto) {
+		
+		switch (tipoImposto) {
+		case value: {
+			
+			yield type;
+		}
+		default:
+			throw new IllegalArgumentException("Unexpected value: " + tipoImposto);
+		}
+		
+		return orcamento.getValor().multiply(new BigDecimal("0.1"));
+	}
+}
